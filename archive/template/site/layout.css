@@ -1,0 +1,47 @@
+#main { text-align:left; width:expression(((document.documentElement.clientWidth || document.body.clientWidth) < 980)? "980px" : "100%"); min-width:980px;}
+
+#header {height:129px; background:url(images/header-tail.gif) top repeat-x; padding:16px 17px 0 22px;}
+
+#footer { height:46px;}
+
+.col-1, .col-2, .col-3 {float:left;}
+.container {width:100%; overflow:hidden;}
+.container2 {width:100%;}
+
+.sidebar {width:242px; margin-right:-249px; float:left; position:relative;}
+.site-content {width:100%; float:left;}
+.site-content .indent {padding-left:249px;}
+
+/* ============================= page1 ===========================*/
+
+#page1 .col-1 { width:50%;}
+#page1 .col-2 { width:49%;}
+
+/* ============================= page2 ===========================*/
+
+#page2 .col-1 { width:33%;}
+#page2 .col-2 { width:33%;}
+#page2 .col-3 { width:33%;}
+
+/* ============================= page3 ===========================*/
+
+#page3 .col-1 { width:50%;}
+#page3 .col-2 { width:49%;}
+
+/* ============================= page4 ===========================*/
+
+#page4 .col-1 { width:50%;}
+#page4 .col-2 { width:49%;}
+
+/* ============================= page5 ===========================*/
+
+#page5 .col-1 { width:50%;}
+#page5 .col-2 { width:49%;}
+
+/* ============================= page6 ===========================*/
+
+#page6 .col-1 { width:50%;}
+#page6 .col-2 { width:49%;}
+
+#page6 #ContactForm .col-1 {width:351px;}
+#page6 #ContactForm .col-2 {width:309px;}

@@ -1,0 +1,97 @@
+<%= javascript_include_tag "resume_validation.js" %>
+
+<div class="site-content">
+  <div class="indent">
+    <div class="box2">
+      <div class="tail-right">
+      <div class="tail-left">
+      <div class="tail-top">
+      <div class="corner-bottom-right">
+      <div class="corner-bottom-left">
+      <div class="corner-top-right">
+      <div class="corner-top-left">
+        <div class="box-indent">
+          <div class="container">
+            <h2>Contact information</h2>
+           If you have any questions regarding our services or available positions, please contact us by calling or filling out the below form and we'll get back to you as soon as possible. We look forward to hearing from you.  
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    <div class="padding2">
+      <div class="box3 col-pad">
+        <div class="tail-right">
+        <div class="tail-left">
+        <div class="tail-top">
+        <div class="corner-bottom-right">
+        <div class="corner-bottom-left">
+        <div class="corner-top-right">
+        <div class="corner-top-left">
+          <div class="box-indent">
+            <div class="container2">
+              <h2 class="title2"><span>Primary contacts</span></h2>
+              <img alt="" src="images/contact_logo.jpg" class="imgindent2" />
+              <strong>American Nursing Services, Inc.</strong><br/>
+              <strong>3930 North Pine Grove Avenue</strong><br/>
+              <strong>Suite 1016</strong><br/>
+              <strong>Chicago, Illinois&nbsp;&nbsp;60613</strong>
+              <div class="address-spacer"></div>
+              <table cellspacing="0" cellpadding="0">
+                <tr><td>Telephone:</td><td>&nbsp;&nbsp;773-871-3442</td></tr>
+                <tr><td>Fax:</td><td>&nbsp;&nbsp;773-527-2717</td></tr>
+                <tr><td>E-mail:</td><td>&nbsp;&nbsp;<a href="mailto:fdardick@americannursingservices.com">fdardick@americannursingservices.com</a></td></tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="indent1">
+      <h2>Submit Resumes</h2>
+      <% form_for @resume_info, :url => { :action => "submit" }, :html => {:id => "ContactForm", :name => "ContactForm", :multipart => true, :onsubmit => "return validate_submit(this);" } do |f| -%>
+        <div class="container2">
+          <div class="col-1">
+            <div class="rowi">
+              Name:<span class="required">*</span><br />
+              <%= f.text_field :name %>
+            </div>
+            <div class="rowi">
+              E-mail:<span class="required">*</span><br />
+              <%= f.text_field :email %>
+            </div>
+            <div class="rowi">
+              Phone:<span class="required">*</span><br />
+              <%= f.text_field :phone %>
+            </div>
+
+            <div class="rowi">
+              Attach Resume (Optional):<br />
+              <%= f.file_field :attachment %>
+            </div>
+          </div>
+          <div class="col-2">
+            Message:<br />
+            <%= f.text_area :message, :rows => "10", :cols => "20" %>
+            <div id="submit-buttons">
+              <%= submit_tag "Submit", :class => "button" %>
+              <input type="button" value="Clear" onclick="this.form.reset()" class="button">
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

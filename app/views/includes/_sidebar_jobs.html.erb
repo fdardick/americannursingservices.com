@@ -1,0 +1,21 @@
+<div class="sidebar">
+  <div class="box">
+    <div class="corner-bottom-left">
+    <div class="corner-top-right">
+    <div class="corner-top-left">
+      <div class="indent">
+        <div class="container2">
+          <h2 class="title1"><span>Current Jobs</span></h2>
+          <% @job_posts.each do |job| %>
+            <div class="job_post">
+              <strong class="color2"><%= link_to job.title, :controller => "jobs", :action => "show", :id => job.id %></strong><br />
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+

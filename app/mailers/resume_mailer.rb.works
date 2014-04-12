@@ -1,0 +1,25 @@
+# Responsible for packaging the resume-attached email
+class ResumeMailer < ActionMailer::Base
+
+  def resume(resume_info)
+
+    #recipients ["fdardick@mail.bullhorn.com"]
+    @to = ["dthomas@rallydev.com"]
+    @bcc = nil #  ["davidpthomas@gmail.com"]
+    @from = 'fdardick@americannursingservices.com'
+    @subject = "[Website Resume] #{resume_info.name}"
+    @resume_info = resume_info
+
+    # FIXME
+    if !resume_info.attachment.nil?
+      attachment  resume_info.attachment.content_type do |a|
+                  # name of attachment in email; replace spaces with underscores
+                  a.filename = "resume_#{resume_info.name.gsub(/\ /, '_')}"
+                  a.body = resume_info.attachment.read
+      end
+    end
+
+	mail(to: @to, bcc: @bcc, from: @from, subject: @subject)
+  end
+
+end

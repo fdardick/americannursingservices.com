@@ -1,0 +1,35 @@
+<div class="site-content">
+  <div class="indent">
+    <div class="box">
+      <div class="tail-right">
+      <div class="tail-left">
+      <div class="tail-top">
+      <div class="corner-bottom-right">
+      <div class="corner-bottom-left">
+      <div class="corner-top-right">
+      <div class="corner-top-left">
+        <div class="indent1">
+          <h2>Recently added jobs</h2>
+          <% @job_posts.each do |job| %>
+            <div class="job_post">
+            <strong class="color2"><%= job.location %>, <%= link_to job.title, :action => "show", :id => job.id %></strong><br />
+            </div>
+          <% end %>
+        </div>
+      </div>
+
+      <div style="font-size: 1.231em;">
+        <div style="padding: 5px 0px 15px 15px;">
+          <span><%= link_to "Submit Resume", :controller => "contact", :action => "index" %></span>
+        </div>
+      </div>
+
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>

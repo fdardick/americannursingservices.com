@@ -1,0 +1,11 @@
+Website Submitted Resume @ <%= Time.now %>
+
+Name: <%= @resume_info.name %>
+Email: <%= @resume_info.email %>
+Phone: <%= @resume_info.phone %>
+Resume?: <%= (@resume_info.attachment.nil?) ? "no" : "yes" %>
+Message:
+--
+<%= @resume_info.message %>
+--
+

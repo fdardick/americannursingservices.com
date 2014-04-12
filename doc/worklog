@@ -1,0 +1,104 @@
+
+Thu Apr 22 21:41:19 PDT 2010
+* added fred's bullhorn email to resume mailer for testing
+
+Wed Apr 21 16:24:50 PDT 2010 (10m)
+* set job posts to black font (req'd parsing bullhorn data)
+
+Mon Apr 19 23:06:00 PDT 2010 [2h]
+* setup job cache refresh job
+* configured website to load jobs in sidebar and jobs tab from cache
+
+Fri Apr 16 21:33:29 PDT 2010 [1h]
+* fixed 3rd testimonial text
+* added 'industries' sidebar to employer and jobs page
+* added jobs and resume links to opportunity page
+* added resume link to online jobs page
+
+Sat Apr 10 20:36:35 PDT 2010 [4h]
+* finished resume upload support
+* formatted response email
+* tested error cases for submitting w/o req'd fields and/or optional resume
+* added thankyou and error pages w/ personalized text
+
+Thu Apr  8 15:10:08 PDT 2010 [1h]
+* initial work on resume submit form
+* sending resume submit emails via gmail in development for testing
+
+Wed Apr  7 22:20:10 PDT 2010 [1h]
+* added job data to left nav
+* created temporary job data cache file to load pages faster (for prototype)
+!! need to consider background cache updater to improve performance overall
+* formatted dynamic jobs data
+* added submit resume link to job details page
+* updated contact page form and labels
+* contact page address/phone spacer
+* 
+Sat Mar 27 21:46:46 PDT 2010 [5h]
+* created job list page from bullhorn query
+* formatted list
+* created single job show page
+* setup <back links on single job page
+* test cases for parsing
+
+Fri Mar 26 20:12:09 PDT 2010 [3h]
+* researched bullhorn API
+* initial job posting query setup
+* created XML parser for returned jobs
+* setup test cases for query and post
+
+BILLED - Mar 19, 2010 - 18.5hrs @ $50/hr
+
+Fri Mar 19 15:29:19 PDT 2010 [15m]
+* testimonial fixes
+* sidebar spelling fix
+
+Sat Mar 13 12:24:07 PST 2010 [2h]
+* fixed logo
+* darker blue header
+* fixed alignment of text/link on homepage
+* testimonial update
+* fixed employers footer page
+* updated copy on employee page
+* updated 6mo guaranteed copy
+* aligned contact numbers
+* removed privacy policy
+
+Wed Mar 10 21:31:32 PST 2010 [2h]
+* integrated logo into header
+
+Tue Mar  9 20:31:14 PST 2010 [2h]
+* custom blue header & buttons redesigned
+* linked logo
+* homepage text change (recruitment)
+* 3 new items to sidebar
+* updated copy on 'about us'
+* updated address layout in 'contact' page
+* updated copy on 'candidates' page
+* fixed layout on homepage under 'employers'
+
+Mon Mar  8 20:44:25 PST 2010 [45m]
+* added 'contact us' page (20m)
+* added custom chicago logo with border on contact page (25m)
+
+Sun Mar  7 07:34:49 PST 2010 [2h]
+* candidates page (20m)
+* online jobs page (20m)
+* updated 'about us' page (20m)
+* remove search box on all pages (30m)
+* added logo (30m)
+
+Fri Mar  5 09:09:44 PST 2010 [1h]
+* 'about us' page (20m)
+* 'home' page & sidebar (20m)
+* 'employers' page (20m)
+
+Sun Feb 21 08:41:22 PST 2010 [4.5h]
+* setup joyent accelerator hosting service (1.5h)
+* setup test domain name (1h)
+* setup dynamic navigation with rollovers (1.5h)
+* added privacy page with custom layout (.5h)
+
+Sat Feb 20 19:51:41 PST 2010 [4h]
+* initial rails project setup (1h)
+* ported all page context from template to rails (3h)

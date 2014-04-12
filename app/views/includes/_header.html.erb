@@ -1,0 +1,13 @@
+<!--header -->
+<div id="logo">
+  <%= link_to image_tag("logo.jpg", :class => "logo", :size => "542x71"), :controller => "home", :action => "index" %>
+</div>
+<div id="header">
+  <div class="container">
+    <div class="right">
+      <%= render(:partial => "includes/navigation") %>
+    </div>
+  </div>
+</div>
+<!--header end-->
+

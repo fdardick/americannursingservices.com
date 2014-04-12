@@ -1,0 +1,164 @@
+/* CSS Document */
+
+* {
+	margin:0; padding:0;
+	font-size:100%;
+}
+
+body{
+	background:white;
+}
+
+img {vertical-align:top;}
+a img { border:0;}
+
+ul { list-style:none;}
+
+.left { float:left;}
+.right {float:right;}
+.clear  { clear:both;}
+
+
+html, input, textarea
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:0.75em;
+		line-height:1.667em;
+		color:#848484;
+	}
+
+input, select { vertical-align:middle; font-weight:normal;}
+
+a {color:#50a70e;}
+a:hover{text-decoration:none;}
+p {padding-top:15px;}
+
+/* ============================= main layout ====================== */
+
+.link {font-size:1.5em; display:inline-block; margin-top:26px;}
+.site-content .link {font-size:1.385em; line-height:1em;}
+.box2 .link {font-size:1.125em; line-height:1em; margin-top:17px;}
+.link3 {color:#0e7c99;}
+.link4 {color:#a8a285;}
+
+li {background:url(/images/list-bg.gif) no-repeat 0 10px; padding-left:8px; line-height:2em;}
+li a {color:#848484;}
+
+.site-content li {font-size:0.923em; line-height:2em;}
+.box2 li {font-size:0.75em; line-height:2em;}
+
+h2 {color:#000000; font-size:2em; line-height:1em; font-weight:normal; margin-bottom:15px;}
+.site-content h2 {font-size:1.846em; line-height:1em;}
+h3 {color:#373737; font-size:1.5em; line-height:1em; font-weight:normal; margin-bottom:5px;}
+
+.imgindent {margin:0 9px 0 0; float:left;}
+.imgindent2 {margin:0 20px 0 0; float:left;}
+
+.title1 {color:#ffffff; background:url(/images/title1-tail.gif) top repeat-x; margin:0 0 28px -20px; position:relative; width:235px;}
+.title1 span {display:block; background:url(/images/title1-right-bg.gif) top right no-repeat; padding:11px 15px 11px 16px;}
+.title2 {color:#ffffff; background:url(/images/title2-tail.gif) top repeat-x; margin:0 0 10px -14px; position:relative; width:235px;}
+.title2 span {display:block; background:url(/images/title2-right-bg.gif) top right no-repeat; padding:10px 15px 13px 13px;}
+.title3 {color:#ffffff; background:url(/images/title3-tail.gif) top repeat-x; margin:0 0 10px -14px; position:relative; width:235px;}
+.title3 span {display:block; background:url(/images/title3-right-bg.gif) top right no-repeat; padding:10px 15px 13px 16px;}
+
+/* ============================= header ====================== */
+
+.logo {}
+
+#header h3 {display:inline;}
+#header .right {text-align:right;}
+
+#header .menu {width:626px; overflow:hidden; padding-top:27px; height:44px;}
+#header .menu ul {float:left;}
+#header .menu li {margin-left:2px; float:left; width:102px; text-align:center; background:none; padding:0; font-size:1.083em; line-height:1em;}
+#header .menu li a {display:block; background:url(/images/menu-tail-bg.gif) top repeat-x; color:#ffffff; text-decoration:none; margin-top:3px;}
+#header .menu li a span {background:url(/images/menu-right-bg.gif) top right no-repeat; display:block;}
+#header .menu li a span span {background:url(/images/menu-left-bg.gif) top left no-repeat; padding:15px 0 13px 0;}
+#header .menu li a:hover {background:url(/images/menu-tail-bg-act.gif) top repeat-x; color:#373737; font-weight:bold; margin:0;}
+#header .menu li a:hover span {background:url(/images/menu-right-bg-act.gif) top right no-repeat;}
+#header .menu li a:hover span span {background:url(/images/menu-left-bg-act.gif) top left no-repeat; padding-top:18px;}
+#header .menu .active a {background:#f5f5eb; color:#373737; font-weight:bold; margin:0;}
+#header .menu .active a span {background:url(/images/menu-right-bg-act.gif) top right no-repeat;}
+#header .menu .active a span span {background:url(/images/menu-left-bg-act.gif) top left no-repeat; padding-top:18px;}
+
+/* ============================= content ====================== */
+
+#content {padding:22px 16px 27px 15px; background:#f5f5eb;}
+.site-content {font-size:1.083em; line-height:1.231em;}
+.col-pad {margin-right:1px;}
+.col-pad2 {padding-right:20px;}
+
+.box {background:#eeece0 url(/images/box-corner-bottom-right.gif) bottom right no-repeat; width:100%;}
+.box .corner-bottom-left {background:url(/images/box-corner-bottom-left.gif) bottom left no-repeat; width:100%;}
+.box .corner-top-right {background:url(/images/box-corner-top-right.gif) top right no-repeat; width:100%;}
+.box .corner-top-left {background:url(/images/box-corner-top-left.gif) top left no-repeat; width:100%;}
+.box .indent {padding:14px 25px 27px 20px;}
+
+.box2 {background:#f7f7f7 url(/images/box2-tail-bottom.gif) bottom repeat-x;}
+.box2 .tail-right {background:url(/images/box2-tail-right.gif) right repeat-y;}
+.box2 .tail-left {background:url(/images/box2-tail.gif) left repeat-y;}
+.box2 .tail-top {background:url(/images/box2-top-tail.gif) top repeat-x;}
+.box2 .corner-bottom-right {background:url(/images/box2-corner-bottom-right.gif) bottom right no-repeat;}
+.box2 .corner-bottom-left {background:url(/images/box2-corner-bottom-left.gif) bottom left no-repeat;}
+.box2 .corner-top-right {background:url(/images/box2-corner-top-right.gif) top right no-repeat;}
+.box2 .corner-top-left {background:url(/images/box2-corner-top-left.gif) top left no-repeat; width:100%;}
+.box2 .box-indent {padding:20px 25px 24px 14px;}
+
+.box3 {background:#f6f6f2 url(/images/box3-tail-bottom.gif) bottom repeat-x;}
+.box3 .tail-right {background:url(/images/box3-tail-right.gif) right repeat-y;}
+.box3 .tail-left {background:url(/images/box3-tail.gif) left repeat-y;}
+.box3 .tail-top {background:url(/images/box3-top-tail.gif) top repeat-x;}
+.box3 .corner-bottom-right {background:url(/images/box3-corner-bottom-right.gif) bottom right no-repeat;}
+.box3 .corner-bottom-left {background:url(/images/box3-corner-bottom-left.gif) bottom left no-repeat;}
+.box3 .corner-top-right {background:url(/images/box3-corner-top-right.gif) top right no-repeat;}
+.box3 .corner-top-left {background:url(/images/box3-corner-top-left.gif) top left no-repeat; width:100%;}
+.box3 .box-indent {padding:8px 30px 29px 14px;}
+.box3 .link {margin-top:20px;}
+
+.padding1 {padding-top:17px;}
+.padding2 {padding-top:7px;}
+.padding3 {padding-top:27px;}
+.indent1 {padding:22px 20px 20px 14px;}
+.box2 {font-size:1.231em; color:#666666; line-height:1.188em;}
+.box2 h2 {font-size:1.5em; line-height:1em;}
+.box2 .link2 {font-size:0.875em;}
+.color2 {color:#000;}
+.color3 {color:#50a70e;}
+
+.back_link {padding-left: 15px; text-decoration: none;}
+.address-spacer {height: 0.5em}
+
+.job_post {line-height: 1.8em;}
+/* ============================= footer ====================== */
+
+#footer {font-size:1.083em; padding:32px 21px 0 25px;}
+#footer a {color:#8a877b;}
+#footer .menu {float:right;}
+#footer .menu li {display:inline; background:url(/images/footer-menu-devider.gif) top left no-repeat; padding:0 12px 0 13px; line-height:1.667em;}
+#footer .menu li a {color:#8a877b;}
+#footer .menu .first {background:none;}
+
+/* ============================= forms ============================= */
+
+#SearchForm .rowi {height:24px;}
+#SearchForm {background:url(/images/form-tail.gif) top repeat-x; font-weight:bold; color:#ffffff; font-size:1.083em; width:470px; float:right;}
+#SearchForm .right-bg {background:url(/images/form-right-bg.gif) top right no-repeat;}
+#SearchForm .left-bg {background:url(/images/form-left-bg.gif) top left no-repeat; padding:18px 20px 16px 13px;}
+#SearchForm .input {width:139px; height:20px; border:1px solid #b7871e; background:#ffffff; padding:0 0 0 5px; font-size:1em; margin:0 5px 0 0;}
+#SearchForm .select {width:88px; border:1px solid #b7871e; background:#ffffff; color:#848484; font-size:0.923em; margin:0 5px 0 10px;}
+
+.button {background:url(/images/button-tail-bg.gif) top repeat-x; display:inline-block; font-size:0.846em; text-decoration:none; color:#ffffff; text-transform:uppercase;}
+.button span {background:url(/images/button-right-bg.gif) top right no-repeat; display:inline-block;}
+.button span span {background:url(/images/button-left-bg.gif) top left no-repeat; padding:1px 8px 0 10px;}
+
+#submit-buttons {
+  padding-top: 10px;
+}
+#ContactForm {padding:20px 0 0 0;}
+#ContactForm .rowi {height:42px;}
+#ContactForm .link {float:right; margin-left:20px;}
+.input {width:252px; height:19px; border:1px solid #cdcdc7; background:#fff; padding:0 0 0 5px; font-size:1em;}
+textarea {width:300px; height:105px; border:1px solid #cdcdc7; background:#fff; padding:0 0 0 5px; overflow:auto; font-size:1em;}
+
+#notice {background: #CF3232; color: black; width: 1024px; height: 30px; }
+.required {color: red; font-size: 1.2em;}
