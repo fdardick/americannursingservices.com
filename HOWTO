@@ -1,0 +1,9 @@
+Updated: Apr 11, 2014
+
+A Small Orange Hosting
+
+The ans.com webapp is managed by Phusion Passenger.  Simply copy the rails app files
+ to the server and make the public dir available as $HOME/public_html
+
+Restart App
+- $ touch ans_webapp/tmp/restart.txt

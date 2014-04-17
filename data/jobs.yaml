@@ -495,3 +495,32 @@ job_posts:
     <DIV><BR>An excellent compensation <STRONG>($65,000-$75,000 base salary) </STRONG>and
     benefits package is available for well experienced candidates.<BR></DIV></DIV>'
   date_added: 2014-04-11
+- !ruby/object:JobPost
+  id: 1500
+  location: Atlanta, GA
+  title: Clinical Manager - Home Hospice
+  employment_type: Perm Placement
+  description: ! '<DIV>
+
+    <DIV>A national provider of home hospice services is seeking a management experienced
+    registered nurse for a Clinical Manager position in Cumming, GA. Will be responsible
+    for managing the clinical activities of the field nursing team and ensuring the
+    high quality care of&nbsp;hospice patients and families.</DIV>
+
+    <DIV>&nbsp;</DIV>
+
+    <DIV><BR><STRONG>Some of the great benefits of this position include:</STRONG><BR><BR>*
+    Mon to Fri daytime work hours <BR>* Excellent benefits package including health,
+    dental, disability,&nbsp;paid vacation and more</DIV>
+
+    <DIV>&nbsp;</DIV>
+
+    <DIV><BR><STRONG>Required qualifications:</STRONG><BR><BR>*&nbsp;1 or more&nbsp;years
+    of clinical hospice management experience <BR>* Must have excellent communication
+    and leadership skills<BR>* Current Georgia RN license<BR></DIV>
+
+    <DIV>&nbsp;</DIV>
+
+    <DIV><BR>An excellent compensation <STRONG>($77,000 to $87,000 base salary) </STRONG>and
+    benefits package is offered for well qualified candidates.</DIV></DIV>'
+  date_added: 2014-04-16
